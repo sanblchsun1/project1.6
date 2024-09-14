@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>БЭМ страница</title>
+</head>
+<body>
+<!-- Блок header -->
+<header class="header">
+    <h1 class="header__title">ДОБРО ПОЖАЛОВАТЬ НА МОЮ СТРАНИЦУ</h1>
+    <nav class="header__nav">
+        <ol class="header__menu">
+            <li class="header__menu__item"><a href="#main" class="header__menu__link">Главная</a></li>
+            <li class="header__menu__item"><a href="#about" class="header__menu__link">Обо мне</a></li>
+            <li class="header__menu__item"><a href="#contacts" class="header__menu__link">Контакты</a></li>
+        </ol>
+    </nav>
+
+</header>
+<!-- Блок main -->
+<main class="main__content">
+    <section class="about">
+        <figure class="header__image">
+            <img src="img/holiday.png" alt="Фото" class="header__img" width="30%">
+            <figcaption class="neader__image__caption">
+                Жду встречи
+            </figcaption>
+        </figure>
+        <h2 class="about__title">Обо мне</h2>
+        <p class="about__text1">Меня зовут <strong>Александр</strong>, я <em>веб-разработчик</em>.</p>
+        <p class="about__text2">Я специализируюсь на фронтенд-разработке и сейчас пишу крутой сайт ;) </p>
+        <!--        Цитата-->
+        <blockquote class="about__quote">
+            <nobr class="about__quote__paragraph">
+                Выберите себе работу по душе..............
+            </nobr>
+            <br>
+            <br>
+            <cite class="about__quote__cite">Подпись: Некто</cite>
+        </blockquote>
+        <table class="iksweb">
+            <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="project">
+        <h2 class="project__title"></h2>
+        <ul class="project__list">
+            <li class="project__list__item">
+                <h3 class="project__list__item_title">Проект 1</h3>
+                <p class="Description">Описание проекта 1.</p>
+                <pre class="project__item__code">
+                    <code>&lt;div&gt;Пример кода&lt;div&gt;</code>
+                </pre>
+            </li>
+            <li class="project__list_item">
+                <h3 class="project__list__item_title">Проект 2</h3>
+                <p class="Description">Описание проекта 2.</p>
+                <ol class="project__list__item__step">
+                    <li>Сделать иследование</li>
+                    <li>Сделат прототип</li>
+                    <li>Реализовать проект</li>
+                </ol>
+            </li>
+            <li class="project__list_item">
+                <h3 class="project__list__item_title">Проект 3</h3>
+                <p class="Description">Описание проекта 3.</p>
+                <ul class="project__item__technologies">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="contacts">
+        <h2 class="contacts__title">Мои контакты</h2>
+        <p class="contacts_text">Телефон для связи 89991111111</p>
+        <h1>Добавляем карту на страницу</h1>
+
+        <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6b66280b83cdf1611d547ce5796e33a51a5b5e1228da0a1fe5beb70106635ee7&width=759&height=543&lang=ru_RU&scroll=true"></script>
+    </section>
+</main>
+<footer class="footer">
+    <p class="footer__text"> &copy; 2024 Александр. Все права защищены </p>
+</footer>
+</body>
+</html>
